@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=EB+Garamond&family=Libre+Baskerville:wght@700&display=swap') */
+@import url(https://fonts.googleapis.com/css?family=Baloo+2:regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=League+Spartan:100,200,300,regular,500,600,700,800,900);
+
+:root {
+    --main-font-family: 'Baloo 2', cursive;
+    --main-color: blue;
+    --main-font-size: 1.5rem;
+    --main-button-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section.main {
+    max-width: 70rem;
+    margin: 0 15rem;   
+}
+
+div.container {
+    display: flex;
+    flex-basis: 1;
+
+}
+
+section.details {
+    max-width: 100%;
+    color: var(--main-color);
+    /* color: blue; */
+    /* font-family: var(--main-font-family); */
+    /* font-family: 'Baloo 2', 'Times New Roman', Times, serif; */
+    font-family: 'League Spartan', 'Times New Roman', Times, serif;
+    font-size: var(--main-font-size);
+    line-height: 2.5rem;
+}
+
+
+
+section.photo {
+    /* color: var(--main-color);
+    font-family: 'Baloo 2', 'Times New Roman', Times, serif;
+    font-size: var(--main-font-size);
+    max-width:90%;
+    padding-left: 3rem; */
+}
+
+img {
+    max-width: 22rem;
+    border-radius: 1%;
+}
+
+input {
+    color: var(--main-color);
+    font-family: var(--main-font-family);
+    border-radius: 0.5rem;
+    margin-left: 30%;
+    width: 20rem;
+}
+
+button {
+    color: var(--main-color);
+    background-color: var(--main-button-color);
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 5rem;
+    font-weight: bold;
+    outline: 2px solid blue;
+}
+
+.second {
+    border: 2px solid grey;
+    border-radius: 1rem;
+}
